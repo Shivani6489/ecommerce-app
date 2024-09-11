@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+
+# E-Commerce App
+
+## Description
+
+This is a React-based e-commerce application with a Node.js backend. It includes features such as product listing, search, filtering, sorting, and checkout.
+
+## Frontend
+
+- **Technologies Used**: React.js, Redux Toolkit, Tailwind CSS or Bootstrap
+- **Setup**:
+  1. Navigate to the `frontend` directory.
+  2. Install dependencies:
+     
+     ```bash
+     npm install
+     ```
+
+  3. Run the development server:
+     
+     ```bash
+     npm start
+     ```
+
+## Backend
+
+- **Technologies Used**: Express.js, CORS
+- **Setup**:
+  1. Navigate to the `backend` directory.
+  2. Install dependencies:
+     
+     ```bash
+     npm install
+     ```
+
+  3. Start the backend server:
+     
+     ```bash
+     node server.js
+     ```
+
+## API Endpoints
+
+- `/api/products`: Get a list of products.
+- `/api/products/:id`: Get details of a specific product.
+
+## How to Run
+
+1. Make sure both the frontend and backend servers are running.
+2. Access the frontend application at `http://localhost:3000`.
